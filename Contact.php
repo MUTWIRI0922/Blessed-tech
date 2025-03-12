@@ -6,6 +6,7 @@
     <title>Contacts Us | Blessed Technologies</title>
     <link rel="stylesheet" href="Home.css">
     <link rel="stylesheet" href="http://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <style>
         body{
             background-color:white;
@@ -139,7 +140,8 @@
             <p id="error3"></p>
             <label for="Message">Message</label><br>
             <textarea name="Message" id="MESSAGE" cols="50" rows="10" placeholder="Type Message..." required></textarea><br>
-            <button type="submit" name="submit">Send Message</button>
+            <button type="submit" class=" btn btn-primary" name="submit">Send Message</button>
+            <button type="reset" class="btn btn-danger">Clear</button>
         </form>
     </div>
 </div>
